@@ -11,38 +11,43 @@
     <title>Day_3</title>
 </head>
 <body>
+  <!--Header Area Top Called BOX - 1-->
     <header>
-        <div class="box-1">
-            <img class="logo", src="assets/img/logo.svg">
-            <h1 class="header-area">EPICODE - IL BLOG DEI DEVELOPERS</h1>
-            <h1 class="nav-menu">&rArr; HOME &lArr;</h1>
-            <h1 class="nav-menu">&rArr; ARTICOLI &lArr;</h1>
-            <h1 class="nav-menu">&rArr; LAVORA CON NOI &lArr;</h1>
+        <div>
+            <img src="assets/img/logo.svg">
+            <p>EPICODE - IL BLOG DEI DEVELOPERS</p>
+            <h1>&rArr; HOME &lArr;</h1>
+            <h1>&rArr; ARTICOLI &lArr;</h1>
+            <h1>&rArr; LAVORA CON NOI &lArr;</h1>
         </div>
     </header>
+
+    <!--Main Body Area-->
     <main>
-        <div class="main-section">
-            <h1 id="heading-01">Come creare un template per i post</h1>
-            <div class="icon-list">
-            <i class="fa fa-edit">&nbsp; <span class="sub-heasing">di mario rossi</span></i> &nbsp;
-            <i class="fa fa-clock-o">&nbsp;<span class="sub-heasing"> pubblicato il 25-10-2020</span></i>
+        <div>
+            <h1>Come creare un template per i post</h1>
+            <!-- <div class="icon-list"> -->
+            <i class="fa fa-edit">&nbsp; <span>di mario rossi</span></i> &nbsp;
+            <i class="fa fa-clock-o">&nbsp;<span> pubblicato il 25-10-2020</span></i>
         </div>
             <p>La prima cosa da fare e suddividere in blocchi logici la pagina, identificando le <span class="pink-color">parti comuni</span> da applicare a tutte le pagine</p><br>
             <p>Le arie aree saranno quindi suddivise in :</p>
-
-            <ul class="unorder-list">
-                <li>Contenuti di intestazionw del tag <span class="a"> &lt;header&gt;</span></li>
-                <li>Contenuti centrali vaiabili del tag <span class="a">&lt;main&gt; </span>(corpo principale)</li>
-                <li>Contenuti  di fine pagina comuni, da inserire nel tag <span class="a"> &lt;footer&gt; </span></li>
+          <!--Unorder List-->
+            <ul>
+                <li>Contenuti di intestazionw del tag <span> &lt;header&gt;</span></li>
+                <li>Contenuti centrali vaiabili del tag <span>&lt;main&gt; </span>(corpo principale)</li>
+                <li>Contenuti  di fine pagina comuni, da inserire nel tag <span> &lt;footer&gt; </span></li>
             </ul>
             <p>Formattazione del codice il testo dell'articolo dovra essere formattato per identificare tutte le parti da <span class="pink-color">selezionare con i CSS</span>. Percio i passi sarano:</p>
-            <ul class="order-list">
+            <!--Oder List-->
+            <ol>
                 <li>Progettare su carta il markup finale, assegnado ad ogni specifico testo il tag appropriato</li>
                 <li>scrivere I'HTML dai tag esterni a quelli interni e dall'alto verso il basso </li>
                 <li>Applicare gli stili CSS</li>
-            </ul>
+            </ol>
             <p>L'applicazione di stili CSS e cresciuta negli anni fino a raggiungere la diffusione pressoche totale.</p>
-            <h1 class="heading1">Diffusione dei CSS</h1>
+            <h2>Diffusione dei CSS</h2>
+            <!--Table Start here-->
             <table id="table1">
                 <tr>
                   <th>Anno</th>
@@ -75,13 +80,18 @@
                   <td>76%</td>
                 </tr>
               </table>
+              <!-- Table End Here-->
               <p>Un test di validazione potra essere fatto tramite il tool online dedicato allo scope.
                 Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
-                <iframe class="video1"
-                src="https://www.youtube.com/embed/tgbNymZ7vqY">
+
+                <!-- Video iframe-->
+                <iframe
+                  src="https://www.youtube.com/embed/tgbNymZ7vqY">
             </iframe>
+
+            <!-- Main Box Area Box -2 -->
             <div class="box-2">
-                <h1 class="heading1">NOVITA</h1>
+                <h2>NOVITA</h2>
                 <p>Vuoi rimanere aggiornatio su altre noita del blog? iscriviti alla nostra newsletter:</p>
                 <div class="search-container">
                     <form action="/action_abc.php">
@@ -90,28 +100,31 @@
                     </form>
                   </div>
             </div>
-            <h1 class="heading1">ARTICOLI CORRELATI</h1>
-
-            <div class="box-3">
+            <h2>ARTICOLI CORRELATI</h2>
+             <!-- Catagoery -->
+            <div class="catagoery">
                 <a href="#">Validare il codic HTML</a><br>
-                <img class="tag-icon" src="assets/img/tag_icon_135119.png">Categoria : develop</img>
-                <p class="fa-icon"><i class="fa fa-calendar"> Date :18-09-2020</i></p>
+                <img src="assets/img/tag_icon_135119.png">Categoria : develop</img>
+                <p><i class="fa fa-calendar"> Date :18-09-2020</i></p>
             </div>
-            <div class="box-3">
+            <div class="catagoery">
                 <a href="#">Correggere la sintassi</a><br>
-                <img class="tag-icon" src="assets/img/tag_icon_135119.png">Categoria : develop</img>
-                <p class="fa-icon"><i class="fa fa-calendar"> Date :16-9-2020</i></p>
+                <img src="assets/img/tag_icon_135119.png">Categoria : develop</img>
+                <p><i class="fa fa-calendar"> Date :16-9-2020</i></p>
             </div>
-            <div class="box-3">
+            <div class="catagoery">
                 <a href="#">Meno kb nella pagina</a><br>
-                <img class="tag-icon" src="assets/img/tag_icon_135119.png">Categoria : ottimizzazione</img>
-                <p class="fa-icon"><i class="fa fa-calendar"> Date :30-9-2020</i></p>
+                <img src="assets/img/tag_icon_135119.png">Categoria : ottimizzazione</img>
+                <p><i class="fa fa-calendar"> Date :30-9-2020</i></p>
             </div>
         </div>
+    </main>   
+    
+    <!-- Footer start here-->
         <footer>
-            <h1 class="footer-h1">Blog Epicode &copy2021</h1>
-            <p class="footer-p">Testata online di Mario Rossi, registrata con prot.n.213/2018 - via Luigi Einaudi 2 - Milano.</p>
-            <a class="footer-area">P.IVA 00112233. <a href="#">info@epicode.school</a></p>
+            <h1>Blog Epicode &copy2021</h1>
+            <p>Testata online di Mario Rossi, registrata con prot.n.213/2018 - via Luigi Einaudi 2 - Milano.</p>
+            <p>P.IVA 00112233. <a href="#">info@epicode.school</a></p>
 
         </footer>
         
